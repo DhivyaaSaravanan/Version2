@@ -1,0 +1,29 @@
+
+<div class="topbar">
+  <div class="animated-text"><a routerLink="">LUV FIT</a></div>
+</div>
+<div class="menu">
+		<nav>
+       <ul class="item">
+       	<li *ngIf="!loggedin()"><a routerLink="#">RECIPES</a>
+       		<ul class="item1">
+       			<li><a routerLink="desserts">DESSERTS</a></li>
+       			<li><a routerLink="salads">SALADS</a></li>
+       		</ul>
+       	</li>
+       	<li><a routerLink="NutriLogin">BOOK NOW</a></li>
+        <div class="rightcorner">
+           <a routerLink="NutriLogin">LOGIN</a>
+		</div>
+
+
+        </ul>
+
+
+         <div class="rightcorner" *ngIf="loggedin()">
+            <a routerLink="" (click)="onLogout()">LOGOUT</a>
+     </div>
+
+
+        </nav>
+		</div>

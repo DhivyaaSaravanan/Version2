@@ -1,0 +1,22 @@
+<form   #Form="ngForm" (submit)="submitForm()">
+
+<div class="make">
+  <div class="form-group">
+  <label >Email</label>
+  <input type="text" placeholder="Enter email" name="email">
+</div>
+  <div class="form-group">
+    <label >Password</label>
+    <input type="password" placeholder="Enter correct password" name="password" >
+  </div>
+
+  <div class="small"><a routerLink="" >Forgot password</a></div>
+
+  <button type="submit">Log in</button>
+<div class="small">
+    No account?<br>
+    <a routerLink="signup">Signup</a>
+  </div>
+
+  </div>
+<br><br>

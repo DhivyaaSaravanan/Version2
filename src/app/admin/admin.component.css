@@ -1,0 +1,57 @@
+body
+{
+  background-image: url('../../assets/images/fruits-collage.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.grid{
+  display:grid;
+  grid-template-columns: auto auto auto;
+  padding: 40px;
+  grid-gap:30px;
+
+  display: grid;
+  grid-gap: 20px;
+  padding: 30px;
+  justify-content: center;
+  position: relative;
+  left:300px;
+  grid-template-columns: auto auto auto;
+  display: inline-grid;
+
+}
+.admin{
+  color:rgb(8, 8, 8);
+  font-weight: 500;
+  font-size:40px;
+  position:relative;
+  left:38%;
+}
+.word{
+  color: rgb(2, 2, 2);
+  text-decoration: underline;
+}
+.small{
+  height:80px;
+  width:70px;
+  background-image: linear-gradient(lightgreen,green);
+  border-radius: 5px;
+  border-color: 5px black;
+}
+.reg{
+  height:300px;
+  width:300px;
+  background-color: white;
+  border-radius: 30px;
+  border-color: 10px black;
+}
+.create{
+  height:300px;
+  width:300px;
+  background-color: white;
+  border-radius: 30px;
+  border-color: 10px black;
+}
+
+
