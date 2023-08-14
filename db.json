@@ -18,158 +18,215 @@
   },
   "users": [
     {
-      "username": "aaa",
-      "email": "aaa",
-      "password": "aa",
-      "cpassword": "aa",
-      "id": 1
-    },
-    {
       "username": "Dhivyaa",
       "email": "2k19ece017@kiot.ac.in",
-      "password": "Lathaaran&395",
-      "cpassword": "Lathasran&395",
-      "id": 2
+      "password": "Jenani@123",
+      "cpassword": "Jenani@123"
     },
     {
-      "username": "sdf",
-      "email": "saras@gmail.com",
-      "password": "WERwer234@#$",
-      "cpassword": "WERwer234@#$",
-      "id": 3
+      "username": "Ragavi",
+      "email": "ragavi@gmail.com",
+      "password": "Lathasaran&9999",
+      "cpassword": "Lathasaran&9999",
+      "booknow": []
     },
     {
       "username": "Abirami",
-      "email": "abi@gmail.com",
-      "password": "WERwer234@#$",
-      "cpassword": "WERwer234@#$",
-      "id": 4
+      "email": "abirami@gmail.com",
+      "password": "Abirami@123",
+      "cpassword": "Abirami@123",
+      "booknow": []
     },
     {
-      "username": "merlin",
-      "email": "merlin@gmail.com",
-      "password": "Merlin@123",
-      "mobile": "9361627761",
-      "id": 5
+      "username": "dheepthi",
+      "email": "dheepthi@gmail.com",
+      "password": "Dheepthi@123",
+      "cpassword": "Dheepthi@123",
+      "booknow": []
     },
     {
-      "username": "Dhivyaa",
-      "email": "2k19ece017@kiot.ac.in",
-      "password": "Lathasaran&3395",
-      "mobile": "9361627761",
-      "id": 6
+      "username": "kirandharsha",
+      "email": "kirandharsha@gmail.com",
+      "password": "Kirandharsha@123",
+      "cpassword": "Kirandharsha@123"
+    }
+  ],
+  "upi": [
+    {
+      "username": "Hasini",
+      "id": "hasini@idbi",
+      "email": 1
+    },
+    {
+      "username": "Dheepika",
+      "id": "dheepika@sbi",
+      "email": 2
+    },
+    {
+      "username": "Kathik",
+      "id": "karthik@idbi",
+      "email": 3
+    },
+    {
+      "username": "veenasri",
+      "id": "veenasri@icici",
+      "email": 4
+    }
+  ],
+  "credit": [
+    {
+      "username": "Nivetha",
+      "cnumber": "854283527334",
+      "dates": "22.10.2023",
+      "type": "Visa Card",
+      "email": 1
+    },
+    {
+      "username": "Shobana",
+      "cnumber": "56675422465",
+      "dates": "",
+      "type": "Visa Card",
+      "email": 2
+    },
+    {
+      "username": "Kalai",
+      "cnumber": "6852394644378",
+      "dates": "",
+      "type": "Rupay Card",
+      "email": 3
+    }
+  ],
+  "debit": [
+    {
+      "username": "geetha",
+      "cnumber": "34456544322",
+      "dates": "02.09.2023",
+      "type": "Rupay Card",
+      "email": 1
+    },
+    {
+      "username": "Shiva",
+      "cnumber": "48293857393",
+      "dates": "",
+      "type": "Visa Card",
+      "email": 2
+    },
+    {
+      "username": "Priyamani",
+      "cnumber": "7864257945",
+      "dates": "",
+      "type": "Diners Club",
+      "email": 3
     }
   ],
   "login": [
     {
-      "email": "2k19ece017@kiot.ac.in",
-      "password": "WERwer234@#$",
-      "id": 1
+      "email": "Kavitha@gmail.com",
+      "desc": "It was a great experience with them.I was having more health issue but after joining over here they gave more diet plans and consultants are very friendy"
     },
     {
-      "email": "Latha@gmail.com",
-      "password": "Lathasaran&3395",
-      "id": 2
+      "email": "Diana@gmail.com",
+      "desc": "It was a great experience with them.I was having more health issue but after joining over here they gave more diet plans and consultants are very friendy"
+    },
+    {
+      "email": "abirami@gmail.com",
+      "desc": "It was a great experience with them.I was having more health issue but after joining over here they gave more diet plans and consultants are very friendy"
     }
   ],
-  "booknow": [],
+  "tempo": [
+    {
+      "username": "Fathima",
+      "email": "2k19ece017@kiot.ac.in",
+      "dob": "2023-07-28",
+      "weight": "44",
+      "height": "144",
+      "slot": "9-12 A.M",
+      "desc": "Nil",
+      "motive": "Weight-Loss"
+    }
+  ],
+  "booknow": [
+    {
+      "username": "Fathima",
+      "email": "2k19ece017@kiot.ac.in",
+      "dob": "2023-07-28",
+      "weight": "44",
+      "height": "144",
+      "slot": "9-12 A.M",
+      "desc": "Nil",
+      "motive": "Weight-Loss"
+    }
+  ],
   "coach": [
     {
-      "Name ": "Robert",
-      "Experience ": "2+years",
-      "MailId": "robert@luvfit.com",
-      " Specialization": "Weight Loss",
-      "DESCRIPTION": "He is the most dedicated person who helps people to achieve their goals like weightloss,gain,other issues like neck pain,knee pain.."
+      "name": "John",
+      "experience": "2 yrs",
+      "specialization": "Weight Loss,Muscle Gain",
+      "email": "john@gmail.com",
+      "description": "He is the most dedicated person who helps people to achieve their goals like weight loss,gain,other issues like neck pain,knee pain..",
+      "url": "../assets/images/John.png"
     },
     {
-      "Name  ": "John",
-      " Experience ": "2+years",
-      "MailId ": " john@luvfit.com",
-      "Specialization": "Weight Management",
-      "DESCRIPTION": "John is the most dedicated person who helps people to achieve their goals like weightloss,gain,other issues like neck pain,knee pain.."
-    },
-    {
-      "Name ": "Rithick",
-      " Experience  ": "2+years",
-      "MailId  ": "rithick@luvfit.com",
-      " Specialization": "Weight gain",
-      "DESCRIPTION": " He is the most dedicated person who helps people to achieve their goals like weightloss,gain,other issues like neck pain,knee pain.."
-    },
-    {
-      "Name  ": "AnuPriya",
-      "Experience ": "2+years",
-      "MailId ": "anupriya@luvfit.com",
-      " Specialization": "Weight Loss",
-      "DESCRIPTION": " She is the most dedicated person who helps people to achieve their goals like weight  loss,gain,other issues like neck pain,knee pain.."
-    },
-    {}
+      "name": "Jennifer",
+      "experience": "2 yrs",
+      "specialization": "Weight Loss,Muscle Gain",
+      "email": "jennifer@luvfit.com",
+      "description": "He is the most dedicated person who helps people to achieve their goals like weight loss,gain,other issues like neck pain,knee pain..",
+      "url": "../assets/images/jenny.webp"
+    }
   ],
   "yoga": [
     {
-      " Name ": "Preethi",
-      "Experience": " 2+years",
-      "MailId ": "preethi@luvfit.com",
-      "Education  ": "M.A(Yoga)",
-      "Specialization": "Weight Management<br>",
-      "DESCRIPTION": "She is the most dedicated person who helps people to achieve their goals like weightloss,gain,other issues like neck pain,knee pain.."
+      "username": "Jennifer",
+      "experience": "2+years",
+      "email": "jennifer@luvfit.com",
+      "url": "assets/images/jenny.webp",
+      "education": " M.A(Yoga)",
+      "description": "She is the most dedicated person who helps people to achieve their goals like weightloss,gain,other issues like neck pain,knee pain.."
     },
     {
-      "Name ": "Jennifer",
-      "Experience ": "2+years",
-      "MailId ": "jennifer@luvfit.com",
-      "Education": " M.A(Yoga)",
-      "Specialization": "Weight Loss<br>",
-      "DESCRIPTION": "She is the most dedicated person who helps people to achieve their goals like weightloss,gain,other issues like neck pain,knee pain.."
-    },
-    {
-      "Name ": "Jenani",
-      "Experience": "2+years",
-      "MailId  ": "jenani@luvfit.com",
-      "Education ": "M.A(Yoga)",
-      "Specialization": "Weight gain<br>",
-      "DESCRIPTION": "She is the most dedicated person who helps people to achieve their goals like weightloss,gain,other issues like neck pain,knee pain.."
-    },
-    {
-      "Name": "Sophia",
-      "Experience": "2+years",
-      "MailId ": "sophia@luvfit.com",
-      "Education": "M.A(Yoga)",
-      "Specialization": "Weight Loss<br>",
-      "DESCRIPTION": "She is the most dedicated person who helps people to achieve their goals like weightloss,gain,other issues like neck pain,knee pain.."
+      "username": "Sophia",
+      "experience": "2+years",
+      "email": "sophia@luvfit.com",
+      "url": "assets/images/sophia.jpg",
+      "education": "M.A(Yoga)",
+      "description": "She is the most dedicated person who helps people to achieve their goals like weightloss,gain,other issues like neck pain,knee pain.."
     }
   ],
   "nutritionist": [
     {
-      "Name  ": "Shiny Surendran",
-      "Experience": "2+years",
-      "MailId ": "shiny@luvfit.com",
-      "Education ": "M.sc(Nutritionist)",
-      "Specialization": "PCOS,Insulin resistance",
-      "DESCRIPTION": " She is the most dedicated person who helps people to achieve their goals like weightloss,gain,other issues like neck pain,knee pain.."
+      "username": "Winona",
+      "age": "23",
+      "email": "winona@gmail.com",
+      "description": "She is the most dedicated person who helps people to achieve their goals like weightloss,gain,other issues like neck pain,knee pain..",
+      "url": "assets/images/nut22.jpg",
+      "experience": "2 yrs"
     },
     {
-      "Name  ": "Akila",
-      "Experience ": "2+years",
-      " MailId    ": "akila@luvfit.com",
-      "Education  ": "M.sc(Nutritionist)",
-      "Specialization": "PCOS,Insulin resistance",
-      "DESCRIPTION": "She is the most dedicated person who helps people to achieve their goals like weightloss,gain,other issues like neck pain,knee pain.."
+      "username": "Shiny",
+      "experience": "7",
+      "age": "40",
+      "email": "shiny@gmail.com",
+      "description": "She is the most dedicated person who helps people to achieve their goals like weightloss,gain,other issues like neck pain,knee pain..",
+      "url": "../assets/images/Shiny.jpg"
+    }
+  ],
+  "comm": [
+    {
+      "name": "Ranjeetha",
+      "email": "ranjeetha@gmail.com"
     },
     {
-      "Name ": " Swetha",
-      " Experience": " 2+years",
-      "MailId  ": "swetha@luvfit.com",
-      " Education  ": " M.sc(Dietics)",
-      "Specialization": "Weight Loss<br>",
-      "DESCRIPTION": "She is the most dedicated person who helps people to achieve their goals like weight loss,gain,other issues like neck pain,knee pain.."
+      "name": "Latha",
+      "email": "Latha@gmail.com"
     },
     {
-      "Name ": "Kamalini",
-      "Experience ": "2+years",
-      " MailId ": "kamalini@luvfit.com",
-      "Education": " M.sc(Nutritionist)",
-      "Specialization": "Weight Loss<br>",
-      "DESCRIPTION": "She is the most dedicated person who helps people to achieve their goals like weightloss,gain,other issues like neck pain,knee pain.."
+      "name": "Karthika",
+      "email": "ragavi@gmail.com"
+    },
+    {
+      "name": "Megna",
+      "email": "megna@gmail.com"
     }
   ]
 }

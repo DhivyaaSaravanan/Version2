@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ConditionService } from '../condition.service';
+
 
 @Component({
   selector: 'app-offer',
@@ -8,7 +8,7 @@ import { ConditionService } from '../condition.service';
 })
 export class OfferComponent implements OnInit {
 
-  constructor(private condition:ConditionService) { }
+  constructor() { }
 
   ngOnInit() {
     //  this.condition.canAccess();

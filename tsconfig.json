@@ -17,8 +17,9 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "ES2022",
+
     "typeRoots": [
-      
+
         "src/alertyfytype.d.ts"
 
     ],
@@ -28,6 +29,7 @@
       "ES2022",
       "dom"
     ]
+
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

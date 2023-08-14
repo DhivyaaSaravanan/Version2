@@ -39,7 +39,7 @@
            injuries as well!
     </div><br>
     <div class="insert">
-        <img src="assets\images\com2.jpg">
+        <img src="https://static6.businessinsider.com/image/54a6d3476bb3f7af2f8b4569-1024-683/people%20running%20marathon.jpg">
     </div>
 <br>
     <div class="head1">4.Increased levels of accountability</div>
@@ -52,7 +52,38 @@
         registered for the exercise class and know that<br> there is a spot with your name on it.
     </div><br>
     </div>
-    <div class="dup"></div>
+
+ <div class="sample">
+    <div class="box">
+      <h3> Join our community</h3><br>
+    <form [formGroup]="comForm" (submit)="gothere()">
+
+        <div class="form-group">
+          <label >NAME</label><br>
+          <input type="text" name="name" formControlName="name">
+       <div *ngIf="comForm.controls['name'].invalid && comForm.controls['name'].touched" style="color:red" >
+       <small style="color:red" *ngIf="comForm.controls['name'].errors?.['required'] && comForm.controls['name'].dirty">Please enter  username </small>
+       <small style="color:red" *ngIf="comForm.controls['name'].errors?.['minlength']">Atleast 3 characters and Number not allowed</small>
+      </div>
+      </div>
+
+        <div class="form-group">
+        <label >EMAIL</label><br>
+        <input type="text" name="email" formControlName="email">
+     <div *ngIf="comForm.controls['email'].invalid && comForm.controls['email'].touched" style="color:red" >
+     <small style="color:red" *ngIf="comForm.controls['email'].errors?.['required'] && comForm.controls['email'].dirty">Please enter  Email</small>
+     <small style="color:red" *ngIf="comForm.controls['email'].errors?.['pattern']">Enter valid Email</small>
+    </div>
+    </div>
+        <div class="sub">
+          <button type="submit"  [disabled]="comForm.invalid">Join</button><br>
+        </div>
+</form>
+</div>
+</div>
+
+
+
     <footer>
         <div class="footer-content">
             <h3>LUV FIT</h3>
@@ -66,7 +97,6 @@
              </ul>
         </div>
         <div class="footer-bottom">
-
             <p>copyright &copy;2022 <a href="#">LUV FIT</a>  </p>
          </div>
       </footer>
