@@ -9,7 +9,7 @@ export interface IDeactivateComponent{
   canExit:()=>boolean;
 }
 
-export class DeactivateGuard implements CanDeactivate<unknown> {
+export class DeactivateGuard implements CanDeactivate<IDeactivateComponent> {
   canDeactivate(
     component: IDeactivateComponent,
     currentRoute: ActivatedRouteSnapshot,

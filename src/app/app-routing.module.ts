@@ -107,7 +107,9 @@ const routes: Routes = [
     },
     {
       path:'NutriLogin/forgot/confirm/registration',
-      component:RegistrationComponent
+      component:RegistrationComponent,
+      canDeactivate:[DeactivateGuard]
+
     },
     {
       path:'NutriLogin',
@@ -241,6 +243,7 @@ const routes: Routes = [
   path:'registration',
   component:RegistrationComponent,
   canActivate:[AuthGuard],
+  canDeactivate:[DeactivateGuard]
 },
 {
   path:'',
@@ -260,7 +263,9 @@ const routes: Routes = [
   children:[
     {
       path:'offer/registration',
-      component:RegistrationComponent
+      component:RegistrationComponent,
+  canDeactivate:[DeactivateGuard]
+
     }
   ]
  }

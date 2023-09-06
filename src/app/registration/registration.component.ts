@@ -93,13 +93,21 @@ submitForm(){
      this.usersservice.sendMail1("http://localhost:222/sendmail1",list1).subscribe((data)=>{});
      }
 
- canExit() :boolean{
-  console.log("Can Exit Register");
-  if(confirm("you are about to leave registration page .press 'yes' to continue")){
-    return true;
-  }
-  else{
+//  canExit() :boolean{
+//   console.log("Can Exit Register");
+//   if(confirm("you are about to leave registration page .press 'yes' to continue")){
+//     return true;
+//   }
+//   else{
+//   return false;
+//  }
+// }
+
+canExit():boolean{
+if(this.RegForm.value){
+  return confirm('ddd');
+}else{
   return false;
- }
+}
 }
 }
